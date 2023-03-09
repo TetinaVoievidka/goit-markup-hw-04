@@ -2,19 +2,17 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-		rel="stylesheet" />
-	<link rel="stylesheet" href="./css/styles.css" />
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -46,7 +44,7 @@
 	</header>
 
 	<main>
-		<section>
+		<section class="portfolio-sec">
 			<div class="container">
 				<h1 class="main-t">Portfolio</h1>
 				<!-- Filters -->
@@ -54,7 +52,7 @@
 					<li class="button-port"> <button class="button-text-port" type="button">All</button></li>
 					<li class="button-port"> <button class="button-text-port" type="button">Web Site</button></li>
 					<li class="button-port"> <button class="button-text-port" type="button">App</button></li>
-					<li class="button-port"> <button class="button-text-port" type="button">Design</span></button></li>
+					<li class="button-port"> <button class="button-text-port" type="button">Design</button></li>
 					<li class="button-port"> <button class="button-text-port" type="button">Marketing</button></li>
 				</ul>
 
@@ -63,72 +61,90 @@
 
 				<ul class="portfolio-ul">
 					<li class="card">
-						<a href="">
-						<img class="img-elements" src="./images/portfolio-images/portfolio1.jpg"
-							alt="Banking App Interface Concept" />
-						<div class="card-text">
-							<h2 class="name-elements">Banking App Interface Concept</h2>
-							<p class="category">App</p>
-						</div>
-					    </a>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio1.jpg"
+								alt="Banking App Interface Concept">
+							<div class="card-text">
+								<h2 class="name-elements">Banking App Interface Concept</h2>
+								<p class="category">App</p>
+							</div>
+						</a>
 					</li>
 					<li class="card">
-						<img class="img-elements" src="./images/portfolio-images/portfolio2.jpg"
-							alt="Cashless Payment" />
-						<div class="card-text">
-							<h2 class="name-elements">Cashless Payment</h2>
-							<p class="category">Marketing</p>
-						</div>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio2.jpg"
+								alt="Cashless Payment">
+							<div class="card-text">
+								<h2 class="name-elements">Cashless Payment</h2>
+								<p class="category">Marketing</p>
+							</div>
+						</a>
 					</li>
 					<li class="card">
-						<img class="img-elements" src="./images/portfolio-images/portfolio3.jpg" alt="Meditaion App" />
-						<div class="card-text">
-							<h2 class="name-elements">Meditaion App</h2>
-							<p class="category">App</p>
-						</div>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio3.jpg"
+								alt="Meditaion App">
+							<div class="card-text">
+								<h2 class="name-elements">Meditaion App</h2>
+								<p class="category">App</p>
+							</div>
+						</a>
 					</li>
 					<li class="card">
-						<img class="img-elements" src="./images/portfolio-images/portfolio4.jpg" alt="Taxi" />
-						<div class="card-text">
-							<h2 class="name-elements">Taxi Service</h2>
-							<p class="category">Marketing</p>
-						</div>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio4.jpg" alt="Taxi">
+							<div class="card-text">
+								<h2 class="name-elements">Taxi Service</h2>
+								<p class="category">Marketing</p>
+							</div>
+						</a>
 					</li>
 					<li class="card">
-						<img class="img-elements" src="./images/portfolio-images/portfolio5.jpg" alt="Screen" />
-						<div class="card-text">
-							<h2 class="name-elements">Screen Illustrations</h2>
-							<p class="category">Design</p>
-						</div>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio5.jpg" alt="Screen">
+							<div class="card-text">
+								<h2 class="name-elements">Screen Illustrations</h2>
+								<p class="category">Design</p>
+							</div>
+						</a>
 					</li>
 					<li class="card">
-						<img class="img-elements" src="./images/portfolio-images/portfolio6.jpg" alt="Online Courses" />
-						<div class="card-text">
-							<h2 class="name-elements">Online Courses</h2>
-							<p class="category">Marketing</p>
-						</div>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio6.jpg"
+								alt="Online Courses">
+							<div class="card-text">
+								<h2 class="name-elements">Online Courses</h2>
+								<p class="category">Marketing</p>
+							</div>
+						</a>
 					</li>
 					<li class="card">
-						<img class="img-elements" src="./images/portfolio-images/portfolio7.jpg"
-							alt="Instagram Stories Concept" />
-						<div class="card-text">
-							<h2 class="name-elements">Instagram Stories Concept</h2>
-							<p class="category">Design</p>
-						</div>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio7.jpg"
+								alt="Instagram Stories Concept">
+							<div class="card-text">
+								<h2 class="name-elements">Instagram Stories Concept</h2>
+								<p class="category">Design</p>
+							</div>
+						</a>
 					</li>
 					<li class="card">
-						<img class="img-elements" src="./images/portfolio-images/portfolio8.jpg" alt="Organic Food" />
-						<div class="card-text">
-							<h2 class="name-elements">Organic Food</h2>
-							<p class="category">Web Site</p>
-						</div>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio8.jpg" alt="Organic Food">
+							<div class="card-text">
+								<h2 class="name-elements">Organic Food</h2>
+								<p class="category">Web Site</p>
+							</div>
+						</a>
 					</li>
 					<li class="card">
-						<img class="img-elements" src="./images/portfolio-images/portfolio9.jpg" alt="resh Coffee" />
-						<div class="card-text">
-							<h2 class="name-elements">Fresh Coffee</h2>
-							<p class="category">Web Site</p>
-						</div>
+						<a class="a-card" href="">
+							<img class="img-elements" src="./images/portfolio-images/portfolio9.jpg" alt="resh Coffee">
+							<div class="card-text">
+								<h2 class="name-elements">Fresh Coffee</h2>
+								<p class="category">Web Site</p>
+							</div>
+						</a>
 					</li>
 				</ul>
 			</div>
